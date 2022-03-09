@@ -1,0 +1,45 @@
+
+.Client{
+  
+  
+    /* top: 70%;
+    left: 50%; */
+    /* transform: translateX(-50%) translateY(-50%); */
+    
+    /* height: 700px;
+    width: 1200px; */
+ 
+    padding: 30px;
+    margin: 10px 200px;
+    align-items: center;
+    border:black;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+  }
+ 
+  /* .Client::before{
+    content: '';
+    
+    position: relative;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        backdrop-filter: blur(10px);
+  } */
+  .caption{
+    align-items: center;
+    
+    color:black;
+    text-align: center;
+    caption-side: top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .btn{
+    background:rgb(116, 107, 243);
+    align-content: center;
+    text-decoration:none;
+  }
+    

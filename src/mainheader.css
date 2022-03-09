@@ -1,0 +1,136 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "lato";
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  /* position:absolute;
+    top: 50%;
+    left: 13.5%;
+    transform: translate(-50%,-50%); */
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #273057 ;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 2;
+}
+.mainMenu {
+  width: 400px;
+  display: block;
+
+  overflow: hidden;
+}
+.subMenu.active{
+    left: 0;
+    transition: 350ms;
+}
+.item {
+  border-top: 1px solid black;
+  overflow: hidden;
+}
+.btn {
+  display: block;
+  padding: 15px 20px;
+  background-color:black;
+  opacity: 2;
+  color: white;
+  position: relative;
+  
+}
+.btn:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  right: 15px;
+  bottom: -10px;
+  z-index: 9;
+}
+.btn i {
+  margin-right: 10px;
+}
+.subMenu {
+  background: #273057;
+  overflow: hidden;
+  transition: max-height 0.7s;
+  max-height: 0;
+}
+.subMenu a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  font-size: 14px;
+  border-bottom: 1px solid #394c7f;
+  position: relative;
+}
+.subMenu a:before {
+  content: "";
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.subMenu a:hover::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 6px;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  border-top: 24px solid transparent;
+  border-left: 11px solid #fcdc29;
+  border-bottom: 24px solid transparent;
+}
+.subMenu a::after {
+  content: "";
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.subMenu a:hover::after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 6px;
+  right: 0px;
+  top: 0;
+  opacity: 1;
+  border-top: 24px solid transparent;
+  border-left: 11px solid #fcdc29;
+  border-bottom: 24px solid transparent;
+}
+.subMenu a:hover {
+  background: #273057;
+  background: linear-gradient(
+    to bottom,
+    #273057 0%,
+    #273057 50%,
+    #394c7f 51%,
+    #394c7f 100%
+  );
+  filter: progid:DXImageTranform.Microsoft.gradient(startColorstr="#273057",
+            endColorstr="#394c7f",GradientType=0);
+  transition: all 0.3s;
+  border-bottom: 1px solid #394c7f;
+}
+.subMenu a:last-child {
+  border: none;
+}
+.item:target .subMenu {
+  max-height: 10em;
+}

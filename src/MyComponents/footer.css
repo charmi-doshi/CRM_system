@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap');
+
+
+.container{
+    max-width: 1170px;
+
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #24262b;
+    padding: 10px 0;
+    width:100%;
+    bottom:0;
+    
+    position: relative;
+}
+.footer-col{
+    width:25%;
+    padding: 0 15px;
+}
+.footer-col2{
+  width:25%;
+  padding: 0 15px;
+}
+.footer-col2 h4{
+  font-size: 18px;
+  color:#fff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  opacity:50%;
+}
+@media(max-width: 1156px){
+  .footer-col{
+      width:50%;
+      margin-bottom: 30px;
+  }
+}
+@media(max-width: 767px){
+  .footer-col{
+      width:30%;
+      margin-bottom: 30px;
+  }
+}
+@media(max-width: 856px){
+  .footer-col{
+      width:70%;
+      margin-bottom: 30px;
+  }
+}
+@media(max-width: 574px){
+  .footer-col{
+      width:100%;
+     
+  }}
