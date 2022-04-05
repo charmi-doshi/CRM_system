@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+**Deployed by CyboQueens**
+created at 27-3-2022 
+updated readme file at 5-4-2022
+made by and coded by CyboQueens copyrights @CyboQueens 
+All rights reserved
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
