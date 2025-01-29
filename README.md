@@ -1,7 +1,8 @@
-**Deployed by CyboQueens**
-created at 27-3-2022 
+**Deployed by Charmi**
+created at 27-3-2020 
 updated readme file at 5-4-2022
-made by and coded by CyboQueens copyrights @CyboQueens 
+made by and coded by Charmi Doshi 
+copyrights @CharmiDoshi
 All rights reserved
 
 
@@ -11,65 +12,42 @@ https://client--management-system.herokuapp.com
 
 _________________________________________________
 
-### `npm start`
+# CRM System - ReactJS, Redux, Material UI, Node.js, Heroku
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This **CRM System** is a comprehensive web application designed to help Customer Assistants (CAs) manage their clients effectively. Built with **ReactJS**, **Redux**, and **Material UI**, it provides an intuitive interface for tracking and managing client data. The system allows easy generation of **daily reports**, as well as the ability to download data in **PDF** and **CSV** formats. The **Node.js** backend handles all data processing and API management, deployed seamlessly on **Heroku**.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
+- 📊 **Daily Reports**: Allows CAs to generate and track daily reports of their clients.
+- 🗂️ **Data Export**: Export client data in **CSV** or **PDF** format for further use.
+- 🔄 **Redux State Management**: Manage complex state logic using Redux for a smooth, scalable experience.
+- 🖥️ **Material UI**: A polished, responsive UI built with Material Design principles for a modern user experience.
+- 🚀 **Heroku Deployment**: The backend is deployed on **Heroku**, providing a reliable cloud-based solution for all backend functionality.
 
-### `npm test`
+## Tech Stack
+- **Frontend**:
+  - **ReactJS**: JavaScript framework for building the user interface.
+  - **Redux**: State management library for managing the application’s global state.
+  - **Material UI**: React UI framework for fast, beautiful, and responsive design components.
+  
+- **Backend**:
+  - **Node.js**: JavaScript runtime for server-side logic.
+  - **Express.js**: Web framework for Node.js to handle HTTP requests and API endpoints.
+  - **MongoDB**: NoSQL database to store client information and reports.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Deployment**:
+  - **Heroku**: Cloud platform to deploy the backend and make it accessible globally.
 
-### `npm run build`
+## Features in Detail
+### Daily Reports
+CAs can input client data and track it on a daily basis. Reports are updated in real-time and can be downloaded for later use.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Export to PDF & CSV
+Client data and reports can be easily exported into **PDF** or **CSV** formats. This ensures that CAs can share reports with clients or store them offline.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Redux for State Management
+The app leverages **Redux** for efficient state management across various components, making the application scalable and performant.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Material UI for Design
+The user interface is crafted using **Material UI**, ensuring that the design is not only functional but also visually appealing and responsive.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can change the bg and deploy the site to see 
